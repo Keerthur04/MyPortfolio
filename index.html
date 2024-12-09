@@ -4,63 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keerthana Ramesh - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Custom Font & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Sidebar -->
-        <nav class="sidebar">
-            <div class="logo">
-                <h2>Keerthana</h2>
-                <p>Ramesh</p>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="logo">
+            <div class="profile-image-container">
+                <img src="assets/Prof.JPG" alt="Keerthana Ramesh" class="profile-image-sidebar">
             </div>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-
-        <!-- Main Content -->
-        <main class="main-content">
-            <section id="about">
-                <h2>About Me</h2>
-                <p>I’m a **Computer Science student** at the **University of Georgia**, with a passion for software development, data analysis, and machine learning.</p>
-            </section>
-
-            <section id="projects">
-                <h2>Projects</h2>
-                <ul>
-                    <li><h3>UGA Bus App</h3><p>Mobile app for tracking UGA bus schedules.</p></li>
-                    <li><h3>Budget Calculator App</h3><p>Tool for managing personal finances.</p></li>
-                    <li><h3>Spotify Statistics App</h3><p>App for personalized Spotify listening insights.</p></li>
-                </ul>
-            </section>
-
-            <section id="education">
-                <h2>Education</h2>
-                <p>**University of Georgia** — Computer Science, Class of 2026, GPA: 4.0/4.0</p>
-            </section>
-
-            <section id="experience">
-                <h2>Work Experience</h2>
-                <ul>
-                    <li><h3>Product Development Intern - EOT Labs</h3><p>Helped develop innovative applications and systems.</p></li>
-                    <li><h3>Data Analytical Extern - Webacy Inc.</h3><p>Worked on sustainable IT infrastructure and blockchain security.</p></li>
-                </ul>
-            </section>
-
-            <section id="contact">
-                <h2>Contact</h2>
-                <p>Email: <a href="mailto:keerthur2004@gmail.com">keerthur2004@gmail.com</a><br>
-                LinkedIn: <a href="https://www.linkedin.com/in/keerthana-ramesh-b85732281/" target="_blank">Keerthana Ramesh</a><br>
-                GitHub: <a href="https://github.com/Keerthur04" target="_blank">Keerthur04</a></p>
-            </section>
-        </main>
+            <h2>Keerthana</h2>
+            <p>Ramesh</p>
+        </div>
+        <ul>
+            <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+            <li><a href="#resume"><i class="fas fa-file-alt"></i> Resume</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
     </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I’m <strong>Keerthana Ramesh</strong>, a passionate and driven <strong>Computer Science student</strong> at the <strong>University of Georgia</strong>, Class of 2026. I specialize in <strong>software development, data analysis, and machine learning</strong>, and I have a strong interest in leveraging technology to solve real-world problems.
+            </p>
+            <p>
+                I’ve always been fascinated by the intersection of technology and creativity, which has driven me to pursue a career in software development. My journey began with a love for problem-solving and mathematics, which eventually led me to explore coding and its potential to create impactful applications. I believe that through technology, we can not only automate tasks but also create solutions that improve lives and enhance efficiency.
+            </p>
+            <p>
+                During my time at university, I’ve worked on a variety of projects ranging from mobile applications like the <em>UGA Bus App</em> to complex data-driven applications like the <em>Spotify Statistics App</em>. These experiences have sharpened my skills in languages such as <strong>JavaScript, Python, React, and SQL</strong>, as well as frameworks like <strong>TensorFlow</strong> for machine learning.
+            </p>
+            <p>
+                I’m also passionate about sustainability and making the world a better place. Through my projects like the <em>Budget Calculator App</em>, I aim to provide practical tools that help individuals make informed decisions, manage their finances better, and reduce their environmental footprint. As I continue my education and career, I hope to work on solutions that merge technology, sustainability, and innovation to create a more equitable future.
+            </p>
+            <p>
+                When I’m not coding, you can find me experimenting with art and design, as I’m always looking for creative outlets that inspire my technical work. I’m a strong believer in continuous learning, and I’m always excited about the next challenge, whether it’s a coding problem to solve or a new technology to explore.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>UGA Bus App</h3>
+                    <p>
+                        A mobile application developed to track the University of Georgia (UGA) bus schedules and provide real-time tracking of buses on campus. This app helps students and faculty efficiently plan their trips across the UGA campus by providing live location tracking of buses, estimated arrival times, and route details. The app is built with React Native for cross-platform mobile development and utilizes the UGA bus API for live data updates.
+                    </p>
+                    <p>
+                        Technologies: <strong>React Native, JavaScript, Google Maps API, Firebase</strong>
+                    </p>
+                    <p>
+                        <a href="https://github.com/Keerthur04/UGAthens" target="_blank" style="color: white;">View on GitHub</a>
+                    </p>
+                </li>
+                <li>
+                    <h3>Budget Calculator App</h3>
+                    <p>
+                        This application allows users to input and track their expenses, helping them manage their budgets effectively. Users can categorize their spending, set monthly limits, and receive notifications if they exceed their budget. The app also provides visual analytics like pie charts and bar graphs to show spending habits. Built with a combination of React.js for the front-end and Node.js for the back-end, it also uses a NoSQL database for storing user data securely.
+                    </p>
+                    <p>
+                        Technologies: <strong>React.js, Node.js, Express, MongoDB</strong>
+                    </p>
+                    <p>
+                        <a href="https://github.com/Keerthur04/PersonalFinanceTracke" target="_blank" style="color: black;">View on GitHub</a>
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>University of Georgia — Computer Science, Class of 2026</p>
+            <h3>Relevant Coursework</h3>
+            <ul class="course-list">
+              <li>Native App Development</li>
+              <li>Cryptography</li>
+              <li>Algorithms</li>
+              <li>Data Structures</li>
+              <li>Software Engineering</li>
+              <li>Computer Networks</li>
+            </ul>
+          </section>
+          
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li><h3>Product Development Intern - EOT Labs</h3><p>Helped develop innovative applications and systems.</p></li>
+                <li><h3>Data Analytical Extern - Webacy Inc.</h3><p>Worked on sustainable IT infrastructure and blockchain security.</p></li>
+            </ul>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Here is my resume:</p>
+            <img src="assets/Resume%20for%20project.png" alt="First Page of Resume" width="50%" height="50%" />
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:keerthur2004@gmail.com">keerthur2004@gmail.com</a><br>
+            LinkedIn: <a href="https://www.linkedin.com/in/keerthana-ramesh-b85732281/" target="_blank">Keerthana Ramesh</a><br>
+            GitHub: <a href="https://github.com/Keerthur04" target="_blank">Keerthana Ramesh GitHub</a></p>
+        </section>
+        
+    </main>
 
     <script src="script.js"></script>
 </body>
